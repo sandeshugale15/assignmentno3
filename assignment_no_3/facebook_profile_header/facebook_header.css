@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+   height: 100vh;
+   width: 100%;
+   /* background-color: brown; */
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+  
+}
+.nav{
+    height: 45px;
+    width: 100%;
+    background-color: pink;
+    border-bottom: 1px solid white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    text-decoration: none;
+    z-index: 1;
+}
+
+
+.img{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 356px;
+    margin-left:10px ;
+}
+.img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.search{
+    line-height: 30px;
+    border-style: none;
+    border-radius: 30px;
+    width: 210px;
+}
+input[type=text]{
+    padding-left: 28px;
+    background-color:#eee;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 12px;
+    border-style: none;
+    outline:none;
+ 
+}
+.main_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* width: 300px; */
+    flex: 1;
+    background-color: white;
+    padding-left: 80px;
+}
+.main_icons i{
+    height: 23px;
+    width: 23px;   padding-left: 70px;
+    margin-left: 10px;
+    background-color: white;
+}
+.main_icons i:hover{
+    scale: 1.2;
+    /* background-color: #443b3b; */
+   text-shadow: 10px 10px 8px gray;
+}
+.last_icons{
+    /* margin-right: */
+    width: 204px;
+    height: 50px;
+    padding-left: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+   
+}
+.last_icons i{
+    padding-right: 10px;
+    height: 19px;
+    width: 19px;
+    /* border-radius: 50%; */
+    /* background-color: #b7acac; */
+}
+.last_icons i:hover{
+    scale: 1.2;
+}
+/* .album-img{
+    height: 100vh;
+    width: 100%;
+    background-color: violet;
+    background-image: url(./Perfect-Facebook-cover-photo-size-Final.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 1230px;
+} */
+/* .album-img{
+    height: 300px;
+    width: 100%;
+  
+} */
+.album{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    /* background-color: yellowgreen; */
+}
+.album-img-div img{
+    height: 400px;
+    width: 995px;
+    /* border-image:fill 0 linear-gradient(#fff,black) ; */
+    border-radius: 20px;
+  
+}
+.album-img-div{
+    height: 300px;
+    width: 1000px;
+    background-color: #eee;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+   
+   
+}
+.main-album{
+    height: 100vh;
+    width: 950px;
+    /* background-color: aqua; */
+}
+.main-album-img{
+    height: 194px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+
+}
+.main-album-img .text{
+    margin-left: 42px;
+    margin-top: 67px;
+    font-size: 14px;
+    color: #050505;
+}
+
+.main-album .profile-logo{
+     height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    /* position: absolute; */
+    top: 230px;
+    left: 150px;
+    border: 5px solid white;
+    /* padding-bottom: 300px; */
+    overflow: hidden;
+   
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #0866ff;
+    height: 30px;
+    width: 113px;
+    /* padding: 5px; */
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 230px;
+    /* margin-top: 60px; */
+    font-size:9px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn2{
+    margin-left: 5px;
+    background-color: #E4E6EB;
+    font-size: 9px;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    border-style: none;
+    height: 30px;
+    width: 113px;
+    border-radius: 10px;
+}
+.album-img-div{
+    background-color: rgba(181,174,174,0.23);
+}
+.others{
+    margin-top: 0;
+    padding-top: 0;
+}
+.others h5{
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* margin-left: ; */
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 4px;
+    height: 190px;
+    width: 138px;
+    /* background-color: white; */
+    background-color: #e1e8f3;
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.card1 .man-img{
+    margin-top: 5px;
+    padding: 0;
+    height: 120px;
+    width: 120px;
+    border-radius: 9px;
+    background-color:rgba(181,174,174,0.23) ;
+    border-style: none;
+    border-image: fill 0 linear-gradient(#0003,#000);
+ 
+}
+.others-text{
+    /* margin-top: 0; */
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.others-text span{
+    font-size: 10px;
+    opacity: 0.7;
+    padding-left: 8px;
+}
+.others-text h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.card-container a{
+    font-size: 8px;
+    font-family: 'Open Sans';
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
